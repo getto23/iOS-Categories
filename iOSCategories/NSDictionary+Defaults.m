@@ -35,7 +35,7 @@
         return objectForKey;
     }
     else {
-        if ( [objectForKey respondsToSelector:@selector(stringValue:)] ) {
+        if ( [objectForKey respondsToSelector:@selector(stringValue)] ) {
             return [objectForKey stringValue];
         }
         else {
