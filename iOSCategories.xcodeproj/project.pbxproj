@@ -24,6 +24,8 @@
 		5F0544CA197EC4BD00953BDF /* UITextField+PhoneFormatting.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0544BE197EC4BD00953BDF /* UITextField+PhoneFormatting.m */; };
 		5F0544CC197EC52900953BDF /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0544CB197EC52900953BDF /* UIColor+HexColor.m */; };
 		5F0544CE197EC5EE00953BDF /* UIColor+HexColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F0544CD197EC5EE00953BDF /* UIColor+HexColor.h */; };
+		5FACE7B219DDC54C008663BB /* NSString+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FACE7B019DDC54C008663BB /* NSString+Additions.h */; };
+		5FACE7B319DDC54C008663BB /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FACE7B119DDC54C008663BB /* NSString+Additions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		5F0544BE197EC4BD00953BDF /* UITextField+PhoneFormatting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+PhoneFormatting.m"; sourceTree = "<group>"; };
 		5F0544CB197EC52900953BDF /* UIColor+HexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexColor.m"; sourceTree = "<group>"; };
 		5F0544CD197EC5EE00953BDF /* UIColor+HexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexColor.h"; sourceTree = "<group>"; };
+		5FACE7B019DDC54C008663BB /* NSString+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Additions.h"; sourceTree = "<group>"; };
+		5FACE7B119DDC54C008663BB /* NSString+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Additions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 		5F054499197EC48D00953BDF /* iOSCategories */ = {
 			isa = PBXGroup;
 			children = (
+				5FACE7B019DDC54C008663BB /* NSString+Additions.h */,
+				5FACE7B119DDC54C008663BB /* NSString+Additions.m */,
 				5F0544CD197EC5EE00953BDF /* UIColor+HexColor.h */,
 				5F0544CB197EC52900953BDF /* UIColor+HexColor.m */,
 				5F0544B3197EC4BD00953BDF /* NSCalendar+Additions.h */,
@@ -155,6 +161,7 @@
 				5F05449D197EC48D00953BDF /* iOSCategories.h in Headers */,
 				5F0544C5197EC4BD00953BDF /* NSDictionary+Defaults.h in Headers */,
 				5F0544C7197EC4BD00953BDF /* UIImage+Thumbnail.h in Headers */,
+				5FACE7B219DDC54C008663BB /* NSString+Additions.h in Headers */,
 				5F0544CE197EC5EE00953BDF /* UIColor+HexColor.h in Headers */,
 				5F0544BF197EC4BD00953BDF /* NSCalendar+Additions.h in Headers */,
 				5F0544C1197EC4BD00953BDF /* NSDate+Additions.h in Headers */,
@@ -260,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F0544CC197EC52900953BDF /* UIColor+HexColor.m in Sources */,
+				5FACE7B319DDC54C008663BB /* NSString+Additions.m in Sources */,
 				5F0544C6197EC4BD00953BDF /* NSDictionary+Defaults.m in Sources */,
 				5F0544C2197EC4BD00953BDF /* NSDate+Additions.m in Sources */,
 				5F0544C8197EC4BD00953BDF /* UIImage+Thumbnail.m in Sources */,
@@ -451,6 +459,7 @@
 				5F0544AF197EC48D00953BDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5F0544B0197EC48D00953BDF /* Build configuration list for PBXNativeTarget "iOSCategoriesTests" */ = {
 			isa = XCConfigurationList;
@@ -459,6 +468,7 @@
 				5F0544B2197EC48D00953BDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
