@@ -1,7 +1,6 @@
 //
 //  NSString+Additions.h
 //
-//
 //  Created by Applico Inc. on 10/2/14.
 //  Copyright (c) 2014 Applico Inc. All rights reserved.
 //
