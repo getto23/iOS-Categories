@@ -26,6 +26,8 @@
 		5F0544CE197EC5EE00953BDF /* UIColor+HexColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F0544CD197EC5EE00953BDF /* UIColor+HexColor.h */; };
 		5FACE7B219DDC54C008663BB /* NSString+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FACE7B019DDC54C008663BB /* NSString+Additions.h */; };
 		5FACE7B319DDC54C008663BB /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FACE7B119DDC54C008663BB /* NSString+Additions.m */; };
+		6CD04B6E1A60BE91009E503A /* UIImage+Alpha.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CD04B6C1A60BE91009E503A /* UIImage+Alpha.h */; };
+		6CD04B6F1A60BE91009E503A /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD04B6D1A60BE91009E503A /* UIImage+Alpha.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		5F0544CD197EC5EE00953BDF /* UIColor+HexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexColor.h"; sourceTree = "<group>"; };
 		5FACE7B019DDC54C008663BB /* NSString+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Additions.h"; sourceTree = "<group>"; };
 		5FACE7B119DDC54C008663BB /* NSString+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Additions.m"; sourceTree = "<group>"; };
+		6CD04B6C1A60BE91009E503A /* UIImage+Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Alpha.h"; sourceTree = "<group>"; };
+		6CD04B6D1A60BE91009E503A /* UIImage+Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Alpha.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +107,7 @@
 		5F054499197EC48D00953BDF /* iOSCategories */ = {
 			isa = PBXGroup;
 			children = (
-				5FACE7B019DDC54C008663BB /* NSString+Additions.h */,
-				5FACE7B119DDC54C008663BB /* NSString+Additions.m */,
-				5F0544CD197EC5EE00953BDF /* UIColor+HexColor.h */,
-				5F0544CB197EC52900953BDF /* UIColor+HexColor.m */,
+				5F05449C197EC48D00953BDF /* iOSCategories.h */,
 				5F0544B3197EC4BD00953BDF /* NSCalendar+Additions.h */,
 				5F0544B4197EC4BD00953BDF /* NSCalendar+Additions.m */,
 				5F0544B5197EC4BD00953BDF /* NSDate+Additions.h */,
@@ -115,11 +116,16 @@
 				5F0544B8197EC4BD00953BDF /* NSDate+NETDateTime.m */,
 				5F0544B9197EC4BD00953BDF /* NSDictionary+Defaults.h */,
 				5F0544BA197EC4BD00953BDF /* NSDictionary+Defaults.m */,
+				5FACE7B019DDC54C008663BB /* NSString+Additions.h */,
+				5FACE7B119DDC54C008663BB /* NSString+Additions.m */,
+				5F0544CD197EC5EE00953BDF /* UIColor+HexColor.h */,
+				5F0544CB197EC52900953BDF /* UIColor+HexColor.m */,
+				6CD04B6C1A60BE91009E503A /* UIImage+Alpha.h */,
+				6CD04B6D1A60BE91009E503A /* UIImage+Alpha.m */,
 				5F0544BB197EC4BD00953BDF /* UIImage+Thumbnail.h */,
 				5F0544BC197EC4BD00953BDF /* UIImage+Thumbnail.m */,
 				5F0544BD197EC4BD00953BDF /* UITextField+PhoneFormatting.h */,
 				5F0544BE197EC4BD00953BDF /* UITextField+PhoneFormatting.m */,
-				5F05449C197EC48D00953BDF /* iOSCategories.h */,
 				5F05449A197EC48D00953BDF /* Supporting Files */,
 			);
 			path = iOSCategories;
@@ -160,6 +166,7 @@
 				5F0544C3197EC4BD00953BDF /* NSDate+NETDateTime.h in Headers */,
 				5F05449D197EC48D00953BDF /* iOSCategories.h in Headers */,
 				5F0544C5197EC4BD00953BDF /* NSDictionary+Defaults.h in Headers */,
+				6CD04B6E1A60BE91009E503A /* UIImage+Alpha.h in Headers */,
 				5F0544C7197EC4BD00953BDF /* UIImage+Thumbnail.h in Headers */,
 				5FACE7B219DDC54C008663BB /* NSString+Additions.h in Headers */,
 				5F0544CE197EC5EE00953BDF /* UIColor+HexColor.h in Headers */,
@@ -268,6 +275,7 @@
 			files = (
 				5F0544CC197EC52900953BDF /* UIColor+HexColor.m in Sources */,
 				5FACE7B319DDC54C008663BB /* NSString+Additions.m in Sources */,
+				6CD04B6F1A60BE91009E503A /* UIImage+Alpha.m in Sources */,
 				5F0544C6197EC4BD00953BDF /* NSDictionary+Defaults.m in Sources */,
 				5F0544C2197EC4BD00953BDF /* NSDate+Additions.m in Sources */,
 				5F0544C8197EC4BD00953BDF /* UIImage+Thumbnail.m in Sources */,

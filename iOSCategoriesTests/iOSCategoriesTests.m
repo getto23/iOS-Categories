@@ -2,7 +2,7 @@
 //  iOSCategoriesTests.m
 //  iOSCategoriesTests
 //
-//  Created by Josh L on 7/22/14.
+//  Created by Applico Inc. on 7/22/14.
 //  Copyright (c) 2014 Applico Inc. All rights reserved.
 //
 

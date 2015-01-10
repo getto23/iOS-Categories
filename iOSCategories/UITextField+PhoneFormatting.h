@@ -1,5 +1,5 @@
 //
-//  UITextField+UITextField_PhoneFormatting.h
+//  UITextField+PhoneFormatting.h
 //
 //  Created by Applico Inc. on 7/22/14.
 //  Copyright (c) 2014 Applico Inc. All rights reserved.
