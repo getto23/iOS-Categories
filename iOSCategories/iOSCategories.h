@@ -15,12 +15,12 @@ FOUNDATION_EXPORT double iOSCategoriesVersionNumber;
 FOUNDATION_EXPORT const unsigned char iOSCategoriesVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <iOSCategories/PublicHeader.h>
-#import <iOSCategories/UIColor+HexColor.h>
-#import <iOSCategories/NSCalendar+Additions.h>
-#import <iOSCategories/NSDate+additions.h>
-#import <iOSCategories/NSDate+NETDateTime.h>
-#import <iOSCategories/NSDictionary+Defaults.h>
-#import <iOSCategories/UIImage+Thumbnail.h>
-#import <iOSCategories/UITextField+PhoneFormatting.h>
+//#import <iOSCategories/UIColor+HexColor.h>
+//#import <iOSCategories/NSCalendar+Additions.h>
+//#import <iOSCategories/NSDate+additions.h>
+//#import <iOSCategories/NSDate+NETDateTime.h>
+//#import <iOSCategories/NSDictionary+Defaults.h>
+//#import <iOSCategories/UIImage+Thumbnail.h>
+//#import <iOSCategories/UITextField+PhoneFormatting.h>
 
 

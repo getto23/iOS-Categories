@@ -24,6 +24,7 @@
 		5F0544CA197EC4BD00953BDF /* UITextField+PhoneFormatting.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0544BE197EC4BD00953BDF /* UITextField+PhoneFormatting.m */; };
 		5F0544CC197EC52900953BDF /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0544CB197EC52900953BDF /* UIColor+HexColor.m */; };
 		5F0544CE197EC5EE00953BDF /* UIColor+HexColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F0544CD197EC5EE00953BDF /* UIColor+HexColor.h */; };
+		5F60C12C1B1CE94B003B8D0B /* String+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F60C12B1B1CE94B003B8D0B /* String+Additions.swift */; };
 		5FACE7B219DDC54C008663BB /* NSString+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FACE7B019DDC54C008663BB /* NSString+Additions.h */; };
 		5FACE7B319DDC54C008663BB /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FACE7B119DDC54C008663BB /* NSString+Additions.m */; };
 /* End PBXBuildFile section */
@@ -59,6 +60,7 @@
 		5F0544BE197EC4BD00953BDF /* UITextField+PhoneFormatting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+PhoneFormatting.m"; sourceTree = "<group>"; };
 		5F0544CB197EC52900953BDF /* UIColor+HexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexColor.m"; sourceTree = "<group>"; };
 		5F0544CD197EC5EE00953BDF /* UIColor+HexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexColor.h"; sourceTree = "<group>"; };
+		5F60C12B1B1CE94B003B8D0B /* String+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+Additions.swift"; path = "Swift/String+Additions.swift"; sourceTree = "<group>"; };
 		5FACE7B019DDC54C008663BB /* NSString+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Additions.h"; sourceTree = "<group>"; };
 		5FACE7B119DDC54C008663BB /* NSString+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Additions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,6 +87,7 @@
 		5F05448D197EC48D00953BDF = {
 			isa = PBXGroup;
 			children = (
+				5F60C12B1B1CE94B003B8D0B /* String+Additions.swift */,
 				5F054499197EC48D00953BDF /* iOSCategories */,
 				5F0544A6197EC48D00953BDF /* iOSCategoriesTests */,
 				5F054498197EC48D00953BDF /* Products */,
@@ -271,6 +274,7 @@
 				5F0544C6197EC4BD00953BDF /* NSDictionary+Defaults.m in Sources */,
 				5F0544C2197EC4BD00953BDF /* NSDate+Additions.m in Sources */,
 				5F0544C8197EC4BD00953BDF /* UIImage+Thumbnail.m in Sources */,
+				5F60C12C1B1CE94B003B8D0B /* String+Additions.swift in Sources */,
 				5F0544CA197EC4BD00953BDF /* UITextField+PhoneFormatting.m in Sources */,
 				5F0544C4197EC4BD00953BDF /* NSDate+NETDateTime.m in Sources */,
 				5F0544C0197EC4BD00953BDF /* NSCalendar+Additions.m in Sources */,
@@ -383,6 +387,7 @@
 		5F0544AE197EC48D00953BDF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -392,12 +397,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		5F0544AF197EC48D00953BDF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
