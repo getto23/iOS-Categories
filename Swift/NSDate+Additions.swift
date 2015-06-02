@@ -1,9 +1,9 @@
 //
 //  NSDate+Additions.swift
-//  99Bottles-Swift
+//  iOSCategories
 //
-//  Created by Josh L on 6/2/15.
-//  Copyright (c) 2015 Applico. All rights reserved.
+//  Created by Applico on 6/2/15.
+//  Copyright (c) 2015 Applico Inc. All rights reserved.
 //
 
 import Foundation
