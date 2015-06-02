@@ -22,11 +22,14 @@ extension String {
         return randomString
     }
     
-    init (randomStringOfLength: Int) {
-        let str = randomStringOfLength(randomStringOfLength)
-        super.init()
-        return str
-    }
+    //    init?(randomStringOfLength: Int) {
+    //        if randomStringOfLength == 0 {
+    //            return nil
+    //        } else {
+    //            super.init()
+    //            self = randomStringOfLength(randomStringOfLength)
+    //        }
+    //    }
     
     func GUIDString() -> String {
         
