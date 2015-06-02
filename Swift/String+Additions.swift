@@ -10,7 +10,7 @@ import Foundation
 
 extension String {
     
-    func randomStringOfLength(length: Int) -> String {
+    static func randomStringOfLength(length: Int) -> String {
         let characterSet = Array("0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ")
         var randomString = String()
         randomString.reserveCapacity(length)
@@ -21,26 +21,5 @@ extension String {
         
         return randomString
     }
-    
-    //    init?(randomStringOfLength: Int) {
-    //        if randomStringOfLength == 0 {
-    //            return nil
-    //        } else {
-    //            super.init()
-    //            self = randomStringOfLength(randomStringOfLength)
-    //        }
-    //    }
-    
-    func GUIDString() -> String {
-        
-        var guid: String
-        
-        let newUniqueID = CFUUIDCreate(kCFAllocatorDefault)
-        let newUniqueIDString = CFUUIDCreateString(kCFAllocatorDefault, newUniqueID)
-        if let guid = newUniqueIDString as? String {
-            return guid
-        }
-        
-        return ""
-    }
+
 }
