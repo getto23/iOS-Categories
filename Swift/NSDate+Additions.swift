@@ -13,7 +13,7 @@ extension NSDate {
     func previousDay() -> NSDate? {
         
         let calendar = NSCalendar.currentCalendar()
-        let dateComponents = calendar.components(NSCalendarUnit.CalendarUnitMonth | NSCalendarUnit.CalendarUnitDay | NSCalendarUnit.CalendarUnitYear, fromDate: self)
+        let dateComponents = calendar.components(NSCalendarUnit.CalendarUnitMonth | NSCalendarUnit.CalendarUnitDay | NSCalendarUnit.CalendarUnitYear | NSCalendarUnit.CalendarUnitHour | NSCalendarUnit.CalendarUnitMinute, fromDate: self)
         
         dateComponents.day = dateComponents.day - 1
         
@@ -23,7 +23,7 @@ extension NSDate {
     func previousDayWithoutTime() -> NSDate? {
         
         let calendar = NSCalendar.currentCalendar()
-        let dateComponents = calendar.components(NSCalendarUnit.CalendarUnitMonth | NSCalendarUnit.CalendarUnitDay | NSCalendarUnit.CalendarUnitYear, fromDate: self)
+        let dateComponents = calendar.components(NSCalendarUnit.CalendarUnitMonth | NSCalendarUnit.CalendarUnitDay | NSCalendarUnit.CalendarUnitYear | NSCalendarUnit.CalendarUnitHour | NSCalendarUnit.CalendarUnitMinute, fromDate: self)
         
         dateComponents.day = dateComponents.day - 1
         dateComponents.hour = 0
@@ -36,7 +36,7 @@ extension NSDate {
     func dateWithoutTime() -> NSDate? {
         
         let calendar = NSCalendar.currentCalendar()
-        let dateComponents = calendar.components(NSCalendarUnit.CalendarUnitMonth | NSCalendarUnit.CalendarUnitDay | NSCalendarUnit.CalendarUnitYear, fromDate: self)
+        let dateComponents = calendar.components(NSCalendarUnit.CalendarUnitMonth | NSCalendarUnit.CalendarUnitDay | NSCalendarUnit.CalendarUnitYear | NSCalendarUnit.CalendarUnitHour | NSCalendarUnit.CalendarUnitMinute, fromDate: self)
 
         dateComponents.hour = 0
         dateComponents.minute = 0
@@ -78,7 +78,7 @@ extension NSDate {
     func dateWithUTCTimeZone() -> NSDate? {
         
         let calendar = NSCalendar.currentCalendar()
-        let dateComponents = calendar.components(NSCalendarUnit.CalendarUnitMonth | NSCalendarUnit.CalendarUnitDay | NSCalendarUnit.CalendarUnitYear, fromDate: self)
+        let dateComponents = calendar.components(NSCalendarUnit.CalendarUnitMonth | NSCalendarUnit.CalendarUnitDay | NSCalendarUnit.CalendarUnitYear | NSCalendarUnit.CalendarUnitHour | NSCalendarUnit.CalendarUnitMinute, fromDate: self)
         
         calendar.timeZone = NSTimeZone.localTimeZone()
         
